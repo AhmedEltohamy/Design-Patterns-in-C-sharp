@@ -1,0 +1,1 @@
+﻿Console.WriteLine("Singleton Pattern different implementations in C#");
