@@ -11,7 +11,7 @@ Adapters convert the interface of one class into an interface a client expects. 
 ### Object Adapter 
 This implementation uses the composition principle: the adapter implements the interface of one object and wraps the other one. It can be implemented in all popular programming languages.
 
-<img width="00" alt="Object Adapter" src="./ReadMe/ObjectAdapter.jpg">
+<img width="500" alt="Object Adapter" src="./ReadMe/ObjectAdapter.jpg">
 
 We can introduce new types of adapters into the program without breaking the existing client code.
 This can be useful when the interface of the service class gets changed or replaced: you can just create a new adapter class without changing the client code.
